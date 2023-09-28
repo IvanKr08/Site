@@ -2,7 +2,7 @@
 <html lang="ru">
 	<head>
 		<title>IvanKr08 - Главная</title>
-		<meta charset="windows-1251">
+		<meta charset="CP1251">
 		<link rel="shortcut icon" href="favicon.png">
 		<link rel="stylesheet" href="style.css">
 	</head>
