@@ -32,7 +32,7 @@
 	margin: auto;
 	border: white double 4px;
 	border-collapse: collapse;
-	background: url(tile_dark.png);
+	background: url(gfx/jeansdark.gif);
 }
 
 .maintable td {
@@ -41,6 +41,20 @@
 
 .menu td, .main td, .footer td {
 	border: 0;
+}
+
+.main h1 {
+	margin: 0 0 10px 0;
+}
+
+.pfaa {
+	float: left;
+	margin: 0 10px 0px 0;
+}
+
+.pfaa img {
+	border: white solid 1px;
+	margin: 10px;
 }
 /* --- */
 
@@ -60,11 +74,12 @@
 * {
 	text-align: center;
 	color: white;  
-	font-family: Courier New, monospace; 
+	font-family: "Courier New", "Droid Sans Mono", monospace; 
 }
 
 body {
-    background: url(tile.png);
+    background: url(gfx/jeans.gif);
 	margin: 0;
+	font-size: 16px;
 }
 /* --- */
