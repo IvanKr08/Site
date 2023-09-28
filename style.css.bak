@@ -1,0 +1,70 @@
+/* MENU */
+.menu a:link {
+	font: 30px bold serif;
+	color: #6666FF;
+	text-decoration: none;
+}
+
+.menu a:visited {
+	font: 30px serif;
+	color: #6666FF;
+	text-decoration: none;
+}
+
+.menu a:hover {	
+	font: 30px serif;
+	color: #FFFFFF; 
+	text-decoration: none;
+}
+
+.menu a {
+	margin: 32px;
+}
+/* --- */
+
+
+
+/* MAIN */
+.maintable {
+	margin: auto;
+	width: 75%;
+	min-width: 720px;
+	margin: auto;
+	border: white double 4px;
+	border-collapse: collapse;
+	background: url(tile_dark.png);
+}
+
+.maintable td {
+	border: white solid 1px;
+}
+
+.menu td, .main td, .footer td {
+	border: 0;
+}
+/* --- */
+
+
+
+/* FOOTER */
+.informer img {
+	border: none;
+}
+.informer a {
+	border: none;
+}
+/* --- */
+
+
+/* OTHER */
+* {
+	text-align: center;
+	color: white;  
+	font-family: Courier New, monospace; 
+}
+
+body {
+    background: url(tile.png);
+	margin: 0;
+}
+/* --- */
