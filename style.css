@@ -1,30 +1,56 @@
+/* padding — внутри, margin — снаружи. Пора бы уже запомнить... */
+
+
+
+/* LINKS */
+a:link {
+	color: #6666FF;
+	text-decoration: underline;
+}
+a:visited {
+	color: #6666FF;
+	text-decoration: underline;
+}
+a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+
+
+a:link h2 {
+	color: #6666FF;
+	text-decoration: underline;
+}
+a:visited h2 {
+	color: #6666FF;
+	text-decoration: underline;
+}
+a:hover h2 {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+/* -- -- */
+
+
+
 /* MENU */
-.menu a:link {
-	font: 30px bold serif;
-	color: #6666FF;
-	text-decoration: none;
-}
-
-.menu a:visited {
-	font: 30px serif;
-	color: #6666FF;
-	text-decoration: none;
-}
-
-.menu a:hover {	
-	font: 30px serif;
-	color: #FFFFFF; 
-	text-decoration: none;
-}
-
 .menu a {
-	margin: 32px;
+	margin: 0 32px;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: none;
+  /*font-family: serif;*/
 }
-/* --- */
+.menu {
+	margin: 5px 0;
+	text-align: center;
+}
+/* - - */
 
 
 
-/* MAIN */
+/* TABLES */
 .maintable {
 	margin: auto;
 	width: 75%;
@@ -33,53 +59,155 @@
 	border: white double 4px;
 	border-collapse: collapse;
 	background: url(gfx/jeansdark.gif);
+  /*max-width: 1024px;*/
+  /*background-attachment: fixed;*/ 
 }
-
 .maintable td {
 	border: white double 4px;
 }
+
+
 
 .menu td, .main td, .footer td {
 	border: 0;
 }
 
+
+
+table.stdtable {
+	border-collapse: collapse;
+	width: 100%;
+}
+.stdtable td {
+  /*border: 1px solid white;*/
+	text-align: center
+}
+/* --  -- */
+
+
+
+/* TEXTBLOCK */
 .main h1 {
-	margin: 0 0 10px 0;
+	margin: 0;
+	text-align: center;
 }
+.main h2, .main h3, .main p {
+	margin-bottom: 5px;
+}
+/* ---   --- */
 
-.pfaa {
+
+
+/* PFAA */
+.pfaal {
 	float: left;
-	margin: 0 10px 0px 0;
+	margin: 0 10px 0 0;
 }
-
-.pfaa img {
+.pfaar {
+	float: right;
+	margin: 0 0 0 10px;
+}
+.pfaal, .pfaar {
+	font-size: 18px;
+	font-weight: bold;
+	width: 350px;
+	text-align: center;
+}
+.pfaal hr, .pfaar hr {
+	margin: 9px 0px 5px 0px;
+}
+.pfaal img, .pfaar img {
 	border: white solid 1px;
 	margin: 10px;
 }
-/* --- */
+/* ---- */
 
 
 
-/* FOOTER */
+/* IMAGES */
+.photo img {
+	margin: 8px auto;
+	image-rendering: auto;
+	border: white solid 1px;
+	width: 90%;
+}
+
+
+
+.photo div {
+	width: 95%;
+	min-width: 680px;
+}
+.photo i {
+	font-size: 18px;
+	font-weight: bold;
+}
+/* --  -- */
+
+
+
+/* INFORMERS */
 .informer img {
 	border: none;
 }
 .informer a {
 	border: none;
 }
-/* --- */
+.informer {
+	margin: 5px 0;
+	text-align: center;
+}
+/* - - - - - */
+
 
 
 /* OTHER */
 * {
-	text-align: center;
-	color: white;  
-	font-family: "Courier New", "Droid Sans Mono", monospace; 
+  /*color: #e8e8e8;*/
+	color: white;
+	font-family: "Courier New", monospace;
+  /*  ^
+	На Android приводит к смешению двух шрифтов в одном тексте. Исправить позже.
+	PS: Я в курсе, что Courier является проприетарным шрифтом Windows, и он отсутствует в открытых системах
+ */
+	image-rendering: pixelated; 
+  /*  ^
+	Поддерживается только в новых браузерах, но старые и так обычно не используют интерполяцию.
+ */
 }
 
 body {
     background: url(gfx/jeans.gif);
 	margin: 0;
 	font-size: 16px;
+  /*background-attachment: fixed;*/ 
 }
 /* --- */
+
+/*
+@font-face {
+  font-weight: normal;
+  font-family: INTERNAL;
+  src: url("files/UMTypewriter.otf");
+}
+
+@font-face {
+  font-weight: bold;
+  font-family: INTERNAL;
+  src: url("files/UMTypewriter-Bold.otf");
+}
+
+@font-face {
+  font-weight: normal;
+  font-family: INTERNAL;
+  font-style: italic;
+  src: url("files/UMTypewriter-Italic.otf");
+}
+
+@font-face {
+  font-weight: bold;
+  font-family: INTERNAL;
+  font-style: italic;
+  src: url("files/UMTypewriter-BoldItalic.otf");
+}
+*/
