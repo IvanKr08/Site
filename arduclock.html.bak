@@ -1,40 +1,41 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="ru">
 	<head>
-		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title>IvanKr08 - Часы</title>
 		<link rel="shortcut icon" href="gfx/favicon.gif">
 		<link rel="stylesheet" href="style.css">
 	</head>
 	
-	<body align="center">
+	<body>
 		<p></p>
-		<!-- MAIN TABLE --->
-		<table class="maintable" cellpadding="4" align="center"><tbody>
-			
-			<!-- MENU --->
+		<!-- MAIN TABLE +-->
+		<table class="maintable" cellpadding="4"><tbody>
+			<!-- MENU +-->
 			<tr><td><div class="menu"><center>
 				<a href="index.html">Главная</a>
+				<a>|</a>
 				<a href="img.html">Галерея</a>
+				<a>|</a>
 				<a href="intr.html">Интересное</a>
 			</center></div></td></tr>
-			<!-- ---- --->
+			<!-- ==== +-->
 			
-			<!-- MAIN --->
+			<!-- MAIN +-->
 			<tr><td><table class="main" cellpadding="4"><tbody>
-				<!-- TITLE --->
+				<!-- TITLE +-->
 				<tr><td><center>
 				<h1>Часы на Arduino</h1>
 				<hr>
 				</center></td></tr>
-				<!-- ----- --->
+				<!-- ===== +-->
 
-				<!-- Clock --->
-				<tr><td><div>
+				<!-- Clock +-->
+				<tr><td>
 					<div align="left">
 						<div class="pfaar">
 							<center><img src="pfaa/arduclock.gif"></center>
-							<center><i>Два основных экрана<br><small>(Переключаются автоматически)</small></i></center><!-- OLD Экран с информацией (В жизни несравнимо контрастнее)--->
+							<center><i>Два основных экрана<br><small>(Переключаются автоматически)</small></i></center><!-- OLD Экран с информацией (В жизни несравнимо контрастнее)+-->
 							<hr>
 						</div>
 						<h2 style="margin-top: 0">Вступление</h2>
@@ -49,19 +50,20 @@
 						(Поделил на 100 и взял частное, а не остаток). Вышло нелепо, а ошибку я заметил не сразу. Так они и стоят, без корпуса и с неправильным годом уже 11й месяц.
 						На удивление, время убежало только на минуту, хотя часы ни разу не подстраивались.
 						Помимо вывода подробной информации предусмотрен режим экрана с крупным временем и полноценный таймер.
+						</p>
 						
 						<h2>Послесловие</h2>
 						Вообще, к данным часам давно просится большой экран формата 2004, Wi-Fi, календарь и, наконец, деревянный лакированный корпус.
 						Проблема в том, что экран этот сейчас стоит крайне некультурно, а без него не имеет смысла ничем заниматься.
 					</div>
 				</div></td></tr>
-				<!-- ---- --->
+				<!-- ===== +-->
 			</tbody></table></td></tr>
-			<!-- ---- --->
+			<!-- ==== +-->
 			
-			<!-- FOOTER --->
+			<!-- FOOTER +-->
 			<tr><td><div class="footer">
-				<!-- INFORMERS --->
+				<!-- INFORMERS +-->
 				<div class="informer"><center>
 					<a href="http://links.twibright.com/">
 					<img src="./informers/links.gif" alt="LinksBrowser"></a>
@@ -87,16 +89,16 @@
 					<a href="https://www.haiku-os.org/">
 					<img src="./informers/haikuos.gif" alt="HaikuOS"></a>
 				</center></div>
-				<!-- - - - - - --->
+				<!-- ========= +-->
 				
 				<center>
-					<h2 style="margin: 0; text-align: center">Здесь пока ничего нет, но вы держитесь!</h2>
+					<h2 align="center" style="margin: 0">Здесь пока ничего нет, но вы держитесь!</h2>
 					Программист - это человек, который сначала долго думает, чтобы потом ничего не делать. (C)
 				</center>
 			</div></td></tr>
-			<!-- -- -- --->
+			<!-- ====== +-->
 		</tbody></table>
-		<!-- ---- ----- --->
-		<p>
+		<!-- ========== +-->
+		<p></p>
 	</body>
 </html>
