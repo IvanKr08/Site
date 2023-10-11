@@ -36,7 +36,7 @@ a:hover h2 {
 
 /* MENU */
 .menu a {
-	margin: 0 32px;
+	margin: 0 16px;
 	font-size: 30px;
 	font-weight: bold;
 	text-decoration: none;
@@ -80,7 +80,11 @@ table.stdtable {
 }
 .stdtable td {
   /*border: 1px solid white;*/
-	text-align: center
+	text-align: center;
+}
+.stdtable th {
+	text-align: center;
+	font-size: 150%;
 }
 /* --  -- */
 
@@ -166,7 +170,6 @@ table.stdtable {
   /*color: #e8e8e8;*/
 	color: white;
 	font-family: "Courier New", monospace;
-	font-family: serif;
   /*  ^
 	На Android приводит к смешению двух шрифтов в одном тексте. Исправить позже.
 	PS: Я в курсе, что Courier является проприетарным шрифтом Windows, и он отсутствует в открытых системах
@@ -180,7 +183,7 @@ table.stdtable {
 body {
     background: url(gfx/jeans.gif);
 	margin: 0;
-	font-size: 18px;
+	font-size: 16px;
   /*background-attachment: fixed;*/ 
 }
 /* --- */
