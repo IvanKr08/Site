@@ -42,12 +42,13 @@
 				</div></td></tr>
 				<!-- - - --->
 				
+				<tr><td><hr></td></tr>
+				
 				<!-- WINPHOTO --->
 				<tr><td align="center">
 					<a name="winphoto"></a>
-					<hr>
 					<h2 style="margin: 0">Оригиналы изображений Windows</h2>
-					<div align="left" style="margin: 0 0">
+					<div align="left" style="margin: 0">
 					Коллекция различных оригиналов изображений из ранних версий Windows.
 					Все файлы в разрешении FHD, QHD и 4K. Изначальный архив был разбит на более мелкие, т.к. GitHub ограничил максимальный размер файла до 100МБ.
 					</div>
@@ -100,7 +101,7 @@
 						</tr>
 					
 						<tr><td colspan="5"><hr style="margin: 4px"></td></tr>
-						<tr><td colspan="5"><h3 style="margin: 0">Всего файлов: 5</h3></td></tr>
+						<tr><td colspan="5"><span style="font-size: 125%">Всего файлов: 5</span></td></tr>
 						<tr><td colspan="5"><hr style="margin: 4px"></td></tr>
 					</tbody>
 					</table>
@@ -111,7 +112,7 @@
 				<tr><td align="center">
 					<a name="modules"></a>
 					<h2 style="margin: 0">Трекерные модули</h2>
-					<div align="left" style="margin: 0 0">
+					<div align="left" style="margin: 0">
 						Это часть файлов из моей коллекции. Воспроизводить их можно в большинстве современных проигрывателей, но качество и удобство там обычно достаточно низкое.
 						Самым универсальным способом является <a href="https://openmpt.org/">OpenMPT</a>. Есть, конечно, порты старых трекеров под Windows (SchismTracker, MilkyTracker и пр) и 
 						эмуляторы (DosBox), но они имеют множество проблем и крайне недружелюбны (Нет поддержки Unicode, клавиатурное управление, ограниченный интерфейс и пр.).
@@ -284,7 +285,7 @@
 						<!-- Это было немного долго... --->
 					
 						<tr><td colspan="5"><hr style="margin: 4px"></td></tr>
-						<tr><td colspan="5"><h4 style="margin: 0">Всего файлов: 16</h4></td></tr>
+						<tr><td colspan="5"><span style="font-size: 125%; font-weight: bold">Всего файлов: 16</span></td></tr>
 						<tr><td colspan="5"><hr style="margin: 4px"></td></tr>
 					</tbody>
 					</table>

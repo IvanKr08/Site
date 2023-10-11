@@ -20,10 +20,10 @@
 				<a>|</a>
 				<a href="intr.html">Интересное</a>
 			</center></div></td></tr>
-			<!-- ---- --->
+			<!-- -  - --->
 			
 			<!-- MAIN --->
-			<tr><td><table class="main" cellpadding="4" align="center"><tbody>
+			<tr><td><table class="main" cellpadding="4"><tbody>
 				<!-- TITLE --->
 				<tr><td><center>
 				<h1>Этот раздел пока еще не завершен</h1>
@@ -41,7 +41,6 @@
 					</ul>
 				</div></td></tr>
 				<!-- - - --->
-				
 				
 				<!-- MATRIXPRINTER --->
 				<tr><td><center><hr>
@@ -79,7 +78,7 @@
 						<hr>
 					</center></div>
 				</td></tr>
-				<!-- --- --- --->
+				<!-- - - - - --->
 				
 				<!-- GORKOGO --->
 				<tr><td><center><hr>
@@ -119,7 +118,7 @@
 				</td></tr>
 				<!-- -- - -- --->
 			</tbody></table></td></tr>
-			<!-- ---- --->
+			<!-- -  - --->
 			
 			<!-- FOOTER --->
 			<tr><td><div class="footer">
@@ -156,9 +155,9 @@
 					Программист - это человек, который сначала долго думает, чтобы потом ничего не делать. (C)
 				</center>
 			</div></td></tr>
-			<!-- -- -- --->
+			<!-- --  -- --->
 		</tbody></table>
-		<!-- ---- ----- --->
+		<!-- - - -- - - --->
 		<p>
 	</body>
 </html>
