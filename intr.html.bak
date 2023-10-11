@@ -11,7 +11,6 @@
 		<p></p>
 		<!-- MAIN TABLE +-->
 		<table class="maintable" cellpadding="4"><tbody>
-			
 			<!-- MENU +-->
 			<tr><td><div class="menu"><center>
 				<a href="index.html">Главная</a>
@@ -143,9 +142,10 @@
 						<col width="60%">
 						<col>
 						<col>
+						<col>
 					</colgroup>
 					<tbody>
-						<tr><td colspan="5"><hr style="margin: 0"></td></tr>
+						<tr><td colspan="6"><hr style="margin: 0"></td></tr>
 						
 						<tr>
 						<th>Файл</th>
@@ -153,9 +153,10 @@
 						<th>Название</th>
 						<th>Длина</th>
 						<th>Жанр</th>
+						<th>Год</th>
 						</tr>
 						
-						<tr><td colspan="5"><hr style="margin: 0"></td></tr>
+						<tr><td colspan="6"><hr style="margin: 0"></td></tr>
 						
 						<tr>
 						<td><a href="files/modules/CHRIS31B.IT">CHRIS31B.IT</a></td>
@@ -163,14 +164,16 @@
 						<td>Blue Flame</td>
 						<td>6:39</td>
 						<td>Рок</td>
+						<td>1997</td>
 						</tr>
 						
 						<tr>
-						<td><a href="files/modules/_almages.it">_almages.it</a></td>
+						<td><a href="files/modules/almages.it">almages.it</a></td>
 						<td>559,532</td>
 						<td>Almagest</td>
 						<td>9:30</td>
 						<td>Рок</td>
+						<td>1998</td>
 						</tr>
 						
 						<tr>
@@ -179,6 +182,7 @@
 						<td>Bejeweled II Soundtrack</td>
 						<td>41:02</td>
 						<td>Видеоигра</td>
+						<td>2004</td>
 						</tr>
 						
 						<tr>
@@ -187,6 +191,7 @@
 						<td>Strobe</td>
 						<td>4:24</td>
 						<td>Рейв</td>
+						<td>1998</td>
 						</tr>
 						
 						<tr>
@@ -195,6 +200,7 @@
 						<td>Drifting Onwards</td>
 						<td>2:29</td>
 						<td>?</td>
+						<td>1997?</td>
 						</tr>
 						
 						<tr>
@@ -203,30 +209,7 @@
 						<td>Alone</td>
 						<td>3:48</td>
 						<td>Джаз?</td>
-						</tr>
-						
-						<tr>
-						<td><a href="files/modules/aryx.s3m">aryx.s3m</a></td>
-						<td>20,800</td>
-						<td>Aryx</td>
-						<td>2:21</td>
-						<td>Транс</td>
-						</tr>
-						
-						<tr>
-						<td><a href="files/modules/2ND_PM.S3M">2ND_PM.S3M</a></td>
-						<td>600,860</td>
-						<td>UnreaL ][ (Second Reality) - Главная Тема</td>
-						<td>6:45</td>
-						<td>Техно</td>
-						</tr>
-						
-						<tr>
-						<td><a href="files/modules/2ND_SKAV.S3M">2ND_SKAV.S3M</a></td>
-						<td>391,312</td>
-						<td>UnreaL ][ (Second Reality) - Вступление И Титры</td>
-						<td>10:08</td>
-						<td>Техно</td>
+						<td>?</td>
 						</tr>
 						
 						<tr>
@@ -235,6 +218,7 @@
 						<td>Prodigy - No Good</td>
 						<td>5:48</td>
 						<td>Ремикс</td>
+						<td>?</td>
 						</tr>
 						
 						<tr>
@@ -243,14 +227,16 @@
 						<td>OFT 3 version 2.6</td>
 						<td>5:58</td>
 						<td>Транс</td>
+						<td>1996</td>
 						</tr>
 						
 						<tr>
 						<td><a href="files/modules/lamb_-_among_the_stars.xm">lamb_-_among_the_stars.xm</a></td>
 						<td>4,000</td>
-						<td>Among the stars</td>
+						<td>Among The Stars</td>
 						<td>2:14</td>
 						<td>Мелодия</td>
+						<td>?</td>
 						</tr>
 						
 						<tr>
@@ -259,6 +245,34 @@
 						<td>Dead Lock</td>
 						<td>4:19</td>
 						<td>Демо</td>
+						<td>1995</td>
+						</tr>
+						
+						<tr>
+						<td><a href="files/modules/aryx.s3m">aryx.s3m</a></td>
+						<td>20,800</td>
+						<td>Aryx</td>
+						<td>2:21</td>
+						<td>Транс</td>
+						<td>1995</td>
+						</tr>
+						
+						<tr>
+						<td><a href="files/modules/2ND_PM.S3M">2ND_PM.S3M</a></td>
+						<td>600,860</td>
+						<td>UnreaL ][ (Second Reality Demo) - Главная Тема</td>
+						<td>6:45</td>
+						<td>Техно</td>
+						<td>1993</td>
+						</tr>
+						
+						<tr>
+						<td><a href="files/modules/2ND_SKAV.S3M">2ND_SKAV.S3M</a></td>
+						<td>391,312</td>
+						<td>UnreaL ][ (Second Reality Demo) - Вступление И Титры</td>
+						<td>10:08</td>
+						<td>Техно</td>
+						<td>1993</td>
 						</tr>
 						
 						<tr>
@@ -267,14 +281,16 @@
 						<td>Guitar Slinger</td>
 						<td>4:59</td>
 						<td>?</td>
+						<td>1993</td>
 						</tr>
 						
 						<tr>
 						<td><a href="files/modules/occ_san_geen.mod">occ_san_geen.mod</a></td>
 						<td>232,298</td>
-						<td>Seven Sins Demo</td>
+						<td>Occ-san-geen (Seven Sins Demo)</td>
 						<td>4:48</td>
 						<td>Демо</td>
+						<td>1989</td>
 						</tr>
 						
 						<tr>
@@ -283,12 +299,14 @@
 						<td>Space Debris</td>
 						<td>5:06</td>
 						<td>Демо</td>
+						<td>1991</td>
 						</tr>
+						
 						<!-- Это было немного долго... +-->
 					
-						<tr><td colspan="5"><hr style="margin: 0"></td></tr>
-						<tr><td colspan="5"><span style="font-size: 125%; font-weight: bold">Всего файлов: 16</span></td></tr>
-						<tr><td colspan="5"><hr style="margin: 0"></td></tr>
+						<tr><td colspan="6"><hr style="margin: 0"></td></tr>
+						<tr><td colspan="6"><span style="font-size: 125%; font-weight: bold">Всего файлов: 16</span></td></tr>
+						<tr><td colspan="6"><hr style="margin: 0"></td></tr>
 					</tbody>
 					</table>
 				</td></tr>
