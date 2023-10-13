@@ -2,114 +2,106 @@
 
 
 
+body {
+	margin: 0;
+    background: url(gfx/jeans.gif);
+}
+* {
+	color: white;
+	font-family: "Courier New", monospace;
+	image-rendering: pixelated; 
+  /*  ^
+      |
+	На Android приводит к смешению двух шрифтов в одном тексте. Исправить позже.
+	PS: Я в курсе, что Courier является проприетарным шрифтом Windows, и он отсутствует в открытых системах
+ */
+
+}
+
+
+
 /* LINKS */
-a:link {
+a:link, a:visited, a:link h2, a:visited h2 {
 	color: #6666FF;
 	text-decoration: underline;
 }
-a:visited {
-	color: #6666FF;
-	text-decoration: underline;
-}
-a:hover {
+a:hover, a:hover h2 {
 	color: #FFFFFF;
 	text-decoration: underline;
 }
+/* ===== */
 
 
 
-a:link h2 {
-	color: #6666FF;
-	text-decoration: underline;
+/* BLOCK */
+.maintable {
+	margin: 16px auto;
+	border: white double 4px;
+	min-width: 720px;
+	width: 75%;
+	background: url(gfx/jeansdark.gif);
+	border-collapse: collapse;
 }
-a:visited h2 {
-	color: #6666FF;
-	text-decoration: underline;
+.menu, .main, .footer {
+	border: white double 4px;
 }
-a:hover h2 {
-	color: #FFFFFF;
-	text-decoration: underline;
-}
-/* -- -- */
+/* ===== */
 
 
 
 /* MENU */
-.menu a {
-	margin: 0 16px;
+.menu span, .menu a {
 	font-size: 30px;
 	font-weight: bold;
 	text-decoration: none;
-  /*font-family: serif;*/
+}
+.menu span {
+	margin: 0 32px;
 }
 .menu {
-	margin: 5px 0;
-	text-align: center;
+	padding: 8px;
 }
-/* - - */
+/* ==== */
+
+
+
+/* TEXT */
+.main h1 {
+	margin: 0;
+}
+.main h2, .main h3, .main p {
+	margin-bottom: 4px;
+}
+.hnarrow {
+	margin-top: 0;
+}
+.nomargin {
+	margin: 0;
+}
+/* ==== */
 
 
 
 /* TABLES */
-.maintable {
-	margin: auto;
-	width: 75%;
-	min-width: 720px;
-	margin: auto;
-	border: white double 4px;
-	border-collapse: collapse;
-	background: url(gfx/jeansdark.gif);
-  /*max-width: 1024px;*/
-  /*background-attachment: fixed;*/ 
-}
-.maintable td {
-	border: white double 4px;
-}
-
-
-
-.menu td, .main td, .footer td {
-	border: 0;
-}
-
-
-
-table.stdtable {
-	border-collapse: collapse;
+.stdtable {
 	width: 100%;
 }
-.stdtable td {
-  /*border: 1px solid white;*/
-	text-align: center;
-}
 .stdtable th {
-	text-align: center;
-	font-size: 150%;
+	text-align: left;
+	font-size: 125%;
 }
-/* --  -- */
-
-
-
-/* TEXTBLOCK */
-.main h1 {
-	margin: 0;
-	text-align: center;
-}
-.main h2, .main h3, .main p {
-	margin-bottom: 5px;
-}
-/* ---   --- */
+/* ====== */
 
 
 
 /* PFAA */
 .pfaal {
 	float: left;
-	margin: 0 10px 0 0;
+	margin: 0 8px 0 0;
 }
 .pfaar {
 	float: right;
-	margin: 0 0 0 10px;
+	margin: 0 0 0 8px;
 }
 .pfaal, .pfaar {
 	font-size: 18px;
@@ -118,75 +110,46 @@ table.stdtable {
 	text-align: center;
 }
 .pfaal hr, .pfaar hr {
-	margin: 9px 0px 5px 0px;
+	margin: 8px 0;
 }
 .pfaal img, .pfaar img {
 	border: white solid 1px;
-	margin: 10px;
+	margin: 8px;
 }
-/* ---- */
+/* ==== */
 
 
 
-/* IMAGES */
+/* PHOTOS */
 .photo img {
 	margin: 8px auto;
 	image-rendering: auto;
 	border: white solid 1px;
 	width: 90%;
 }
-
-
-
 .photo div {
 	width: 95%;
-	min-width: 680px;
 }
 .photo i {
 	font-size: 18px;
 	font-weight: bold;
 }
-/* --  -- */
+/* ====== */
 
 
 
 /* INFORMERS */
-.informer img {
+.footer img, .footer a {
 	border: none;
 }
-.informer a {
-	border: none;
+.footer {
+	padding: 8px;
 }
-.informer {
-	margin: 5px 0;
-	text-align: center;
-}
-/* - - - - - */
+/* ========= */
 
 
 
-/* OTHER */
-* {
-  /*color: #e8e8e8;*/
-	color: white;
-	font-family: "Courier New", monospace;
-  /*  ^
-	На Android приводит к смешению двух шрифтов в одном тексте. Исправить позже.
-	PS: Я в курсе, что Courier является проприетарным шрифтом Windows, и он отсутствует в открытых системах
- */
-	image-rendering: pixelated; 
-  /*  ^
-	Поддерживается только в новых браузерах, но старые и так обычно не используют интерполяцию.
- */
-}
 
-body {
-    background: url(gfx/jeans.gif);
-	margin: 0;
-	font-size: 16px;
-  /*background-attachment: fixed;*/ 
-}
-/* --- */
 
 /*
 @font-face {

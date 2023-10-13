@@ -6,38 +6,39 @@
 		<link rel="shortcut icon" href="gfx/favicon.gif">
 		<link rel="stylesheet" href="style.css">
 	</head>
-	
 	<body>
-		<p></p>
 		<!-- MAIN TABLE +-->
-		<table class="maintable" cellpadding="4"><tbody>
+		<table class="maintable" align="center">
+		<tbody>
 			<!-- MENU +-->
-			<tr><td><div class="menu"><center>
+			<tr><td class="menu" align="center">
 				<a href="index.html">Главная</a>
-				<a>|</a>
+				<span>|</span>
 				<a href="img.html">Галерея</a>
-				<a>|</a>
+				<span>|</span>
 				<a href="intr.html">Интересное</a>
-			</center></div></td></tr>
+			</td></tr>
 			<!-- ==== +-->
 			
 			<!-- MAIN +-->
-			<tr><td><table class="main" cellpadding="4"><tbody>
+			<tr><td class="main">
+			<table cellpadding="4">
+			<tbody>
 				<!-- TITLE +-->
-				<tr><td><center>
-				<h1>MODPlay</h1>
-				<hr>
-				</center></td></tr>
+				<tr><td align="center">
+					<h1>MODPlay</h1>
+					<hr>
+				</td></tr>
 				<!-- ===== +-->
-				
+
 				<!-- TRACKERS +-->
 				<tr><td align="left">
-					<div class="pfaar">
-						<center><img src="pfaa/modplay.gif"></center>
-						<center><i>Внешний вид MOD партитуры<br>Пример из старой версии MODPlay<br>(Нота Инструмент Эффект)</i></center>
+					<div class="pfaar" align="center">
+						<img src="pfaa/modplay.gif" alt="*Вывод программы"><br>
+						<i>Внешний вид MOD партитуры<br>Пример из старой версии MODPlay<br>(Нота Инструмент Эффект)</i>
 						<hr>
 					</div>
-					<h2 style="margin-top: 0px">Вступление</h2>
+					<h2 class="hnarrow">Вступление</h2>
 					На данный момент последний, после сайта проект, датированный серединой июля. 
 					Забросив эмулятор в конце весны, поковыряв IDA Pro и написав универсальный кейген к тестовым программам,
 					у меня в голове появилась новая идея: свой проигрыватель для трекерной музыки (MODPlay).
@@ -82,9 +83,16 @@
 					</p>
 					
 					<h2>Послесловие</h2>
-					<a href="files/MODPlay.zip">Скачать EXE</a>. Кода нет, он еще и близко не готов к демонстрации. Песня зашита в EXE, "occ_san_geen.mod".
+					<s><a href="files/MODPlay.zip">Скачать EXE</a></s>.
+					Обожаю современные антивирусы. Жрут все, от кейгенов до самописных утилит, которые даже на диск не лезут. Все, кроме настоящих угроз. Вирусов там нет,
+					перепроверил в IDA Pro, а +- нормальные антивирусы (MalwareBytes, DrWeb, Kaspersky, ESET-NOD32) ничего подозрительного и так там не видят. Очередной раз убеждаюсь,
+					что MS Defender в первую очередь помогает от взломанных программ, во вторую от ваших собственных, а от вирусов только в последнюю.
+					
+					<p>
+					Кода нет, он еще и близко не готов к демонстрации. Песня зашита в EXE, "occ_san_geen.mod".
 					Воспроизведение начинается сразу после запуска. Вывод партитуры сделан максимально неправильно, и так (Пихать WriteConsole() в waveOutProc()) делать нельзя ни при каких условиях.
 					Времени переписывать не было, кое как работает.
+					</p>
 					
 					<p>
 					Трекерные файлы можно найти <a href="intr.html#modules">в моей коллекции</a>, <a href="https://modarchive.org/index.php">ModArchive</a> и
@@ -92,47 +100,44 @@
 					</p>
 				</td></tr>
 				<!-- ======== +-->
-			</tbody></table></td></tr>
+			</tbody>
+			</table>
+			</td></tr>
 			<!-- ==== +-->
 			
 			<!-- FOOTER +-->
-			<tr><td><div class="footer">
+			<tr><td class="footer" align="center">
 				<!-- INFORMERS +-->
-				<div class="informer"><center>
-					<a href="http://links.twibright.com/">
-					<img src="./informers/links.gif" alt="LinksBrowser"></a>
-					
-					<a href="https://files.scene.org/">
-					<img src="./informers/amigademo.gif" alt="AmigaDemo"></a>
-					
-					<a href="https://rn10950.github.io/RetroZillaWeb/">
-					<img src="./informers/retrozilla.gif" alt="RetroZilla"></a>
-					
-					<img src="./informers/css.gif">
-					
-					<a href="https://modarchive.org/index.php">
-					<img src="./informers/modarchive.gif" alt="ModArchive"></a>
-					
-					<img src="./informers/npp.gif">
-					
-					<a href="https://openmpt.org/">
-					<img src="./informers/openmpt.gif" alt="OpenMPT"></a>
-					
-					<img src="./informers/chrome.gif">
-					
-					<a href="https://www.haiku-os.org/">
-					<img src="./informers/haikuos.gif" alt="HaikuOS"></a>
-				</center></div>
+				<a href="http://links.twibright.com/">
+				<img src="./informers/links.gif" alt="LinksBrowser"></a>
+				
+				<a href="https://files.scene.org/">
+				<img src="./informers/amigademo.gif" alt="AmigaDemo"></a>
+				
+				<a href="https://rn10950.github.io/RetroZillaWeb/">
+				<img src="./informers/retrozilla.gif" alt="RetroZilla"></a>
+				
+				<img src="./informers/css.gif" alt="">
+				
+				<a href="https://modarchive.org/index.php">
+				<img src="./informers/modarchive.gif" alt="ModArchive"></a>
+				
+				<img src="./informers/npp.gif" alt="">
+				
+				<a href="https://openmpt.org/">
+				<img src="./informers/openmpt.gif" alt="OpenMPT"></a>
+				
+				<img src="./informers/chrome.gif" alt="">
+				
+				<a href="https://www.haiku-os.org/">
+				<img src="./informers/haikuos.gif" alt="HaikuOS"></a>
 				<!-- ========= +-->
 				
-				<center>
-					<h2 align="center" style="margin: 0">Здесь пока ничего нет, но вы держитесь!</h2>
-					Программист - это человек, который сначала долго думает, чтобы потом ничего не делать. (C)
-				</center>
-			</div></td></tr>
+				<h2 align="center" style="margin: 0">Здесь пока ничего нет, но вы держитесь!</h2>
+				Программист - это человек, который сначала долго думает, чтобы потом ничего не делать. (C)
+			</td></tr>
 			<!-- ====== +-->
 		</tbody></table>
 		<!-- ========== +-->
-		<p></p>
 	</body>
 </html>

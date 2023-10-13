@@ -6,38 +6,39 @@
 		<link rel="shortcut icon" href="gfx/favicon.gif">
 		<link rel="stylesheet" href="style.css">
 	</head>
-	
 	<body>
-		<p></p>
 		<!-- MAIN TABLE +-->
-		<table class="maintable" cellpadding="4"><tbody>
+		<table class="maintable" align="center">
+		<tbody>
 			<!-- MENU +-->
-			<tr><td><div class="menu"><center>
+			<tr><td class="menu" align="center">
 				<a href="index.html">Главная</a>
-				<a>|</a>
+				<span>|</span>
 				<a href="img.html">Галерея</a>
-				<a>|</a>
+				<span>|</span>
 				<a href="intr.html">Интересное</a>
-			</center></div></td></tr>
+			</td></tr>
 			<!-- ==== +-->
 			
 			<!-- MAIN +-->
-			<tr><td><table class="main" cellpadding="4"><tbody>
+			<tr><td class="main">
+			<table cellpadding="4">
+			<tbody>
 				<!-- TITLE +-->
-				<tr><td><center>
-				<h1>Главная</h1>
-				<hr>
-				</center></td></tr>
+				<tr><td align="center">
+					<h1>Главная</h1>
+					<hr>
+				</td></tr>
 				<!-- ===== +-->
-				
+
 				<!-- ABOUT +-->
 				<tr><td align="left">
-					<div class="pfaal">
-						<center><img src="pfaa/cat.gif"></center>
-						<center><i>КДПВ<br><small>(Картинка Для Привлечения Внимания)</small></i></center>
+					<div class="pfaal" align="center">
+						<img src="pfaa/cat.gif" alt="*Кошка"><br>
+						<i>КДПВ<br><small>(Картинка Для Привлечения Внимания)</small></i>
 						<hr>
 					</div>
-					<h2 style="margin-top: 0">Почему и зачем?</h2>
+					<h2 class="hnarrow">Почему и зачем?</h2>
 					Данный сайт был создан в качестве попытки перезапустить цикл разработки своих проектов, ну и в качестве домашнего задания.
 					Что бы я не начинал последний год, оно на вторую неделю переходит в стадию микрооптимизаций, а через месяц улетает в дальний ящик.
 					Было много чего, от сокобана на Unity до кейгенов к CrackMe на чистом C + WinAPI, все они в конечном итоге отправились в одно очень глубокое и темное место.
@@ -70,14 +71,11 @@
 					а дизайн вдохновлен сайтом <a href="http://adlibtracker.net/index.php">Adlib Tracker II</a>.
 					Сайт хостится на <a href="https://github.com/IvanKr08/ivankr08.github.io/">GitHub Pages</a>.
 					GitHub пусть и сделал из меня (По региональному признаку) бесправное нечто с очень грубым названием, но хостинг у них проверенный. 
+					Жаль, что сайт статический, так бы добавил самопальный счетчик посещений и валютный информер (Готовые меня не устраивают ни внешне, ни функционально).
 					
 					<p>
 					И да, не открывайте этот сайт в телефоне. Шрифты все еще не исправлены. Это же касается и большинства дистрибутивов Linux.
 					</p>
-				<!--
-					Шрифт заменен на UM Typewriter. Старые браузеры будут все равно использовать Courier New, а новые загрузят шрифт с сайта.
-					В любом случае, сайт оптимизирован под ПК.
-				+-->
 				</td></tr>
 				<!-- ===== +-->	
 				
@@ -87,7 +85,7 @@
 				
 				<!-- LINKS +-->
 				<tr><td align="left">
-					<h2 style="margin-top: 0"><a href="6502emu.html">Эмулятор 6502</a></h2>
+					<h2 class="hnarrow"><a href="6502emu.html">Эмулятор MOS-6502</a></h2>
 					Относительно старый проект, начатый еще в конце февраля 2023 года. Это эмулятор процессора MOS-6502, написанный на C# с нуля, используя только документацию
 					по инструкциям и список аппаратных ошибок.
 					Данный процессор достаточно сильно повлиял на всю компьютерную историю, и, к примеру, стоял в
@@ -105,47 +103,44 @@
 					На данный момент часы собраны на макетке и стоят без корпуса, в ожидании нового экрана.
 					</td></tr>
 				<!-- ===== +-->
-			</tbody></table></td></tr>
+			</tbody>
+			</table>
+			</td></tr>
 			<!-- ==== +-->
 			
 			<!-- FOOTER +-->
-			<tr><td><div class="footer">
+			<tr><td class="footer" align="center">
 				<!-- INFORMERS +-->
-				<div class="informer"><center>
-					<a href="http://links.twibright.com/">
-					<img src="./informers/links.gif" alt="LinksBrowser"></a>
-					
-					<a href="https://files.scene.org/">
-					<img src="./informers/amigademo.gif" alt="AmigaDemo"></a>
-					
-					<a href="https://rn10950.github.io/RetroZillaWeb/">
-					<img src="./informers/retrozilla.gif" alt="RetroZilla"></a>
-					
-					<img src="./informers/css.gif">
-					
-					<a href="https://modarchive.org/index.php">
-					<img src="./informers/modarchive.gif" alt="ModArchive"></a>
-					
-					<img src="./informers/npp.gif">
-					
-					<a href="https://openmpt.org/">
-					<img src="./informers/openmpt.gif" alt="OpenMPT"></a>
-					
-					<img src="./informers/chrome.gif">
-					
-					<a href="https://www.haiku-os.org/">
-					<img src="./informers/haikuos.gif" alt="HaikuOS"></a>
-				</center></div>
+				<a href="http://links.twibright.com/">
+				<img src="./informers/links.gif" alt="LinksBrowser"></a>
+				
+				<a href="https://files.scene.org/">
+				<img src="./informers/amigademo.gif" alt="AmigaDemo"></a>
+				
+				<a href="https://rn10950.github.io/RetroZillaWeb/">
+				<img src="./informers/retrozilla.gif" alt="RetroZilla"></a>
+				
+				<img src="./informers/css.gif" alt="">
+				
+				<a href="https://modarchive.org/index.php">
+				<img src="./informers/modarchive.gif" alt="ModArchive"></a>
+				
+				<img src="./informers/npp.gif" alt="">
+				
+				<a href="https://openmpt.org/">
+				<img src="./informers/openmpt.gif" alt="OpenMPT"></a>
+				
+				<img src="./informers/chrome.gif" alt="">
+				
+				<a href="https://www.haiku-os.org/">
+				<img src="./informers/haikuos.gif" alt="HaikuOS"></a>
 				<!-- ========= +-->
 				
-				<center>
-					<h2 align="center" style="margin: 0">Здесь пока ничего нет, но вы держитесь!</h2>
-					Программист - это человек, который сначала долго думает, чтобы потом ничего не делать. (C)
-				</center>
-			</div></td></tr>
+				<h2 align="center" style="margin: 0">Здесь пока ничего нет, но вы держитесь!</h2>
+				Программист - это человек, который сначала долго думает, чтобы потом ничего не делать. (C)
+			</td></tr>
 			<!-- ====== +-->
 		</tbody></table>
 		<!-- ========== +-->
-		<p></p>
 	</body>
 </html>
