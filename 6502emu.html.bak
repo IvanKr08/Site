@@ -34,7 +34,7 @@
 				<!-- 6502 +-->
 				<tr><td align="left">
 					<div class="pfaar" align="center">
-						<img src="pfaa/6502.gif" alt="*Окна эмулятора">
+						<img src="pfaa/6502.gif" alt="*Окна эмулятора"><br>
 						<i>Пример вывода одной из программ<br>Ниже информация о регистрах</i>
 						<hr>
 					</div>
